@@ -2,7 +2,7 @@
 
 ## J'ai donc fais une première création, intitulée le « sanglier » , dont voici le code html :
 
-<!DOCTYPE html>
+-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8"/>
