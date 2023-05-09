@@ -142,9 +142,9 @@
 
 
 
-Résultat :
+## Résultat :
 
-Voici le code javascript associé pour l'intégrer au paysage :
+## Voici le code javascript associé pour l'intégrer au paysage :
 
 import { AbstractForm } from './AbstractForm.js';
 
