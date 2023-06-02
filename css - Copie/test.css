@@ -1,0 +1,89 @@
+h1{
+color: white;
+background-color: orange;
+width: 350px;
+text-decoration: underline;
+
+}
+
+
+h2{
+
+color: orange;
+background-color: white;
+width: 530px;
+
+}
+
+.titreSecondaire{
+
+background-color: white;
+}
+
+
+
+.slideshow {
+            position: relative;
+            max-width: 500px;
+            margin: auto;
+        }
+        
+        .slideshow img {
+            display: none;
+            width: 100%;
+            height: auto;
+        }
+        
+        .slideshow img.active {
+            display: block;
+        }
+        
+        .slideshow .prev, .slideshow .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #000000;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+        .slideshow .prev {
+            left: 10px;
+        }
+        
+        .slideshow .next {
+            right: 10px;
+        }
+
+
+body{
+
+background-color: grey;
+
+
+
+} 
+
+
+.voyage1{
+width: 800px;
+height: 400px;
+display: inline-block;
+
+}
+
+
+.voyage2{
+width: 800px;
+height: 400px;
+display: inline-block;
+
+}
+.textedevoyage{
+display: inline-block;
+color: orange;
+background-color: white;
+}
