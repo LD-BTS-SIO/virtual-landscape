@@ -1,8 +1,8 @@
-# Pour obtenir cela, j’ai tapé comme description : « dessin d'une forêt simple avec des fleurs contenant 5 sangliers, 3 renards et 2 cerfs », comme vous pouvez vois, malgré cette description très précise, j’ai obtenue une image « approximative » mais cela suffit à imaginer un canva similaire pouvant donner un résultat attendu.
+## Pour obtenir cela, j’ai tapé comme description : « dessin d'une forêt simple avec des fleurs contenant 5 sangliers, 3 renards et 2 cerfs », comme vous pouvez vois, malgré cette description très précise, j’ai obtenue une image « approximative » mais cela suffit à imaginer un canva similaire pouvant donner un résultat attendu.
 
-## J'ai donc fais une première création, intitulée le « sanglier » , dont voici le code html :
+### J'ai donc fais une première création, intitulée le « sanglier » , dont voici le code html :
 
-<!DOCTYPE html>
+#### <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8"/>
@@ -14,7 +14,7 @@
       const canvas = document.getElementById("canvas");
       const ctx = canvas.getContext("2d");
 
-      // Dessiner le corps
+    ####  // Dessiner le corps
       ctx.fillStyle = "#8b4513";
       ctx.fillRect(100, 150, 120, 80);
       ctx.fill
@@ -25,7 +25,7 @@
   
       
 
-      //Dessiner le bout de la queue
+    ####   //Dessiner le bout de la queue
       ctx.beginPath();
       ctx.fillStyle = "#000000";
       ctx.arc(320, 210, 20, 0, 2 * Math.PI);
